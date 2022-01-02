@@ -13,7 +13,7 @@ int main() {
 		string s;
 		cin >> s;
 		// view the image in this repository for better understanding
-		// the answer can be solved by using observation in the position of the characters
+		// concatenate the letters like this: s[0], s[n - 1], s[1], s[n - 2], ...
 		string ans = "";
 		int from = 0;
 		int to = k - 1;
